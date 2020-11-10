@@ -1,0 +1,369 @@
+body {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    background: url(/Images/fruit_bg-1000x630.jpg) no-repeat;
+    background-size: cover;
+}
+
+/* HEADER START */
+header {
+    background-color: black;
+}
+
+.navbar, .navbar-brand {
+    padding: 0;
+}
+
+#logo {
+    background: url(/Images/CFMLogo2.png);
+    height: 90px;
+    width: 120px;
+    margin: 0;
+}
+
+#logo:hover {
+    opacity: .7;
+}
+
+.btn {
+    margin-right: 10px;
+}
+
+.btn-outline-success {
+    color: white;
+    border-color: #fe0000;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #fe0000;
+    border: 1px solid #fe0000;
+  }
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+#header-navlink:hover {
+    color:black;
+}
+
+#navtoggle {
+    border: 1px solid white;
+    margin-right: 10px;
+}
+
+#navtoggle:hover {
+      background-color: white;
+}
+
+#navtoggleicon:hover {
+    border: 1px solid black;
+}
+
+.dropdown-menu {
+    background-color: black;
+    color: white;
+}
+
+.dropdown-item {
+    color: white;
+    font-weight: bold;
+}
+
+.dropdown-item:hover {
+    background-color: white;
+    color: black;
+}
+
+.line {
+    border: 1px solid white;
+}
+
+#nav-ul, .navbar-dark, .nav-link, .navbar-nav {
+    color: white;
+}
+
+
+/******* END HEADER *******/
+
+/******* FOOTER START ********/
+#footer {
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+}
+
+#hours, #address {
+    margin-top: 20px;
+}
+
+/******* END FOOTER *********/
+
+/******* MAIN CONTENT ******/
+
+.banner-div {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.banner {
+    padding: 0;
+    width: 100%;
+}
+
+.banner:hover {
+    opacity: .7;
+}
+
+#heading {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Yesteryear', cursive;
+}
+
+.jumbotron {
+    text-align: center;
+    background: transparent;
+}
+
+.main-img {
+    box-shadow: 8px 8px 8px 8px black;
+    border: 1px solid black;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container1 {
+    position: relative;
+    width: 100%;
+    padding-top: 15px;
+  }
+
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fe0000;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    opacity: .8;
+  }
+
+  .container1:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  #text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-style: italic;
+  }
+
+#special1, #special2, #special3 {
+    height: 200px;
+    width: 300px;
+    position: relative;
+    border: 3px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+.special1 {
+    width: 300px;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#special2 {
+    background: url(/Images/CoffeeClubImage\ -\ 300x200.png) no-repeat;
+    background-size: cover;
+}
+
+#special3 {
+    background: url(/Images/Ad-November-Screenshot2\ -\ 300x200.png) no-repeat;
+    background-size: cover;
+}
+
+.special-span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    opacity: .7;
+}
+
+.special-span:hover {
+    background-color: white;
+    opacity: .7em;
+    color: black;
+}
+
+.overlayspecial {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fe0000;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.container-specials-overlay:hover .overlayspecial {
+    height: 100%;
+}
+
+.textspecial {
+    color: white;
+    font-size: 1.4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding-bottom: 10px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.textspecial h3 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#header-navlink {
+    color: white;
+}
+/******** Large Devices *********/
+
+@media (min-width: 1200px) {
+
+}
+
+/************* Medium Devices ***************/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+/************ Small Devices ****************/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    #special1 {
+        background: url(/Images/burger-220x147.jpg) no-repeat;
+    }
+    
+    #special2 {
+        background: url(/Images/coffee-220x147.jpg) no-repeat;
+    }
+    
+    #special3 {
+        background: url(/Images/pizza-220x147.jpg) no-repeat;
+    }
+
+    #special1, #special2, #special3 {
+        height: 147px;
+        width: 220px;
+        position: relative;
+        border: 5px solid black;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .textspecial {
+        font-size: 1rem;
+    }
+
+}
+
+/********** Extra small devices *******/
+
+@media (min-width: 580px) and (max-width: 767px) {
+   
+    #special1 {
+        background: url(/Images/burger\ -\ 240x194.jpg);
+        width: 240px;
+        height: 194px;
+    }
+    
+    #special2 {
+        background: url(/Images/coffee\ -\ 240x194.jpg);
+        width: 240px;
+        height: 194px;
+    }
+    
+    #special3 {
+        background: url(/Images/pizza\ -\ 240x194.jpg);
+        width: 240px;
+        height: 194px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .specials-big-box {
+        position: relative;
+        top: 90px;
+        padding: 0;
+    }
+
+    #special1, #special2 {
+        padding: 0;
+        margin-left: 10px;
+    }
+
+    #special3 {
+        margin-top: 10px;
+    }
+
+    .specials-box {
+        padding: 0;
+    }
+
+    #footer {
+        margin-top: 120px;
+        background-color: black;
+        color: white;
+    }
+}
+
+/********* Super small devices only ***********/
+
+@media (max-width: 579px) {
+    #special1, #special2, #special3 {
+        margin-top: 10px;
+    }
+}
