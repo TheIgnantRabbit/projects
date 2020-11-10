@@ -1,0 +1,311 @@
+
+#locationspecial1 {
+    background: url(/Images/Deli\ -\ 300x200.jpg);
+    width: 300px;
+    height: 200px;
+}
+
+#locationspecial2 {
+    background: url(/Images/Candybar\ -\ 300x200.png);
+    width: 300px;
+    height: 200px;
+}
+
+#locationspecial3 {
+    width: 300px;
+    height: 200px;
+}
+
+
+#locationspecial1, #locationspecial2, #locationspecial3 {
+    position: relative;
+    border: 3px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+#locationspecial2, #locationspecial3 {
+    margin-top: 25px;
+}
+
+.container-specials-overlay {
+    position: relative;
+    width: 100%;
+  }
+
+.overlayspecial {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fe0000;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.container-specials-overlay:hover .overlayspecial {
+    height: 100%;
+}
+
+.textspecial {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.textspecial h3 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#store-img {
+    position: relative;
+    top: 20px;
+    box-shadow: 8px 8px 8px 8px black;
+    border: 1px solid black;
+    
+}
+
+#store-info {
+    position: relative;
+    top: 70px;
+    font-size: 1.4em;
+
+}
+
+#store-info-link {
+    text-decoration: none;
+    color: black;
+}
+
+#store-info-link:hover {
+    color: #fe0000;
+}
+
+i {
+    margin-right: 20px;
+    font-size: 1.4em;
+}
+
+.divider {
+    border: 3px solid black;
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+
+.divider2 {
+    border: 3px solid black;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.storeinfocontainer {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.management, .hours {
+    margin-top: 20px;
+}
+
+.management h3, .hours h3 {
+    font-weight: bold;
+    font-size: 1.9em;
+    margin-bottom: 10px;
+}
+
+.managername {
+    margin-top: 10px;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+.vl {
+    height: 380px;
+    border-left: 6px solid black;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.hours h3 {
+    height: 30px;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, tr, td {
+    border: 2px solid black;
+    font-size: 1.6rem;
+}
+
+th {
+    background-color: #fe0000;
+    width: 50%;
+}
+
+/******** Large Devices *********/
+
+@media (min-width: 993px) {
+    .vl {
+        height: 415px;
+        border-left: 6px solid black;
+        margin-top: 0;
+        padding-top: 0;
+    }
+}
+
+
+/************ Small Devices ****************/
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #locationspecial1 {
+        background: url(/Images/Deli\ -\ 200x133.jpg);
+        width: 200px;
+        height: 133px;
+    }
+    
+    #locationspecial2 {
+        background: url(/Images/Candybar\ -\ 200x133.png);
+        width: 200px;
+        height: 133px;
+    }
+    
+    #locationspecial3 {
+        width: 200px;
+        height: 133px;
+    }
+
+    #map {
+        width: 200px;
+        height: 133px;
+    }
+
+    #store-info {
+        font-size: 1em;
+    }
+
+    .textspecial {
+        font-size: .8rem;
+    }
+
+}
+
+/********** Extra small devices *******/
+
+@media (min-width: 567px) and (max-width: 767px) {
+
+    #locationspecial1 {
+        background: url(/Images/Deli\ -\ 240x194.jpg);
+        width: 240px;
+        height: 194px;
+        margin-right: 10px;
+    }
+    
+    #locationspecial2 {
+        background: url(/Images/Candybar\ -\ 240x194.png);
+        width: 240px;
+        height: 194px;
+        margin-top: 0;
+        margin-left: 10px;
+    }
+    
+    #locationspecial3 {
+        width: 240px;
+        height: 194px;
+    }
+
+    .specials-big-box {
+        position: relative;
+        top: 90px;
+        padding: 0;
+    }
+
+    #special1, #special2, #special3 {
+        padding: 0;
+        margin-left: 10px;
+    }
+
+    .specials-box {
+        padding: 0;
+    }
+
+    .divider {
+        margin-top: 120px;
+    }
+
+    .management h3, .hours h3 {
+        font-size: 1.5rem;
+    }
+
+    #footer {
+        margin-top: 120px;
+        background-color: black;
+        color: white;
+    }
+}
+
+/********* Super small devices only ***********/
+
+@media (max-width: 566px) {
+    #locationspecial1 {
+        background: url(/Images/Deli\ -\ 300x200.jpg);
+        width: 300px;
+        height: 200px;
+    }
+    
+    #locationspecial2 {
+        background: url(/Images/Candybar\ -\ 300x200.png);
+        width: 300px;
+        height: 200px;
+    }
+    
+    #locationspecial3 {
+        width: 300px;
+        height: 200px;
+    }
+
+    .specials-big-box {
+        position: relative;
+        top: 90px;
+        padding: 0;
+    }
+
+    #special1, #special2, #special3 {
+        padding: 0;
+        margin-left: 10px;
+    }
+
+    .specials-box {
+        padding: 0;
+    }
+
+    #footer {
+        margin-top: 120px;
+        background-color: black;
+        color: white;
+    }
+
+    .divider {
+        margin-top: 120px;
+    }
+
+    .vl {
+        height: 0;
+        border-left: 0;
+        margin-top: 0;
+        padding-top: 0;
+        }
+}
