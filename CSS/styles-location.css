@@ -1,4 +1,11 @@
 
+#carousel {
+    box-shadow: 8px 8px 8px 8px black;
+    border: 1px solid black;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 #locationspecial1 {
     background: url(/Images/Deli\ -\ 300x200.jpg);
     width: 300px;
@@ -308,4 +315,8 @@ th {
         margin-top: 0;
         padding-top: 0;
         }
+
+    table {
+        margin-bottom: 30px;
+    }
 }
