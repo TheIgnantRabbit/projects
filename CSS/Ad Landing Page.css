@@ -1,0 +1,13 @@
+.ad-img {
+    padding: 0;
+}
+
+.ad-img img {
+    border: 1px solid black;
+}
+
+h2 {
+    font-weight: bold;
+    font-family: 'Yesteryear', cursive;
+    margin-top: 10px;
+}

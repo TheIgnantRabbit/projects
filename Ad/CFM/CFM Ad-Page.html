@@ -14,7 +14,8 @@
     
     <!-- Own CSS -->
     <link rel="stylesheet" href="/CSS/style.css">
-    <title>Convenient Food Mart</title>
+    <link rel="stylesheet" href="/CSS/AdPageCSS.css">
+    <title>Weekly Ad - Convenient Food Mart</title>
 
     <!-- Browser Tab Icon -->
     <link rel="shortcut icon" href="/Images/CFMLogoTab.png" type="image/x-icon"/>
@@ -25,7 +26,7 @@
   <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand" href="index.html"><div id="logo"></div></a>
+            <a class="navbar-brand" href="/index.html"><div id="logo"></div></a>
             <button id="navtoggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span id="navtoggleicon" class="navbar-toggler-icon"></span>
             </button>
@@ -77,109 +78,37 @@
     </header>
     <hr class="line">
     
-    <main id="main-content" class="container-fluid">
-        <div class="banner-div text-center d-none d-sm-block">
-            <div class="row">
-                <div class="col-md-4 col-sm-4 col-xs-12">
-                    <a href="">
-                        <img class="banner" src="Images/Breakfast-and-Coffee-Slider-267x100.jpg" alt="Weekly Banner">
-                    </a>
+    <main id="main-content" class="container">
+        <div class="container">
+            <div class="row col-md-12 col-sm-12 col-xs-12">
+                <div class="col-md-3 col-sm-3 col-xs-3" id="weekly-ad-links">
+                    <ul class="ads">
+                        <li data-target="#ad-img1" class="active">11/23/20 - 11/29/2020</li>
+                        <li data-target="#ad-img2">11/16/20 - 11/22/20</li>
+                        <li data-target="#ad-img3">11/09/20 - 11/15/20</li>
+                        <li data-target="#ad-img4">11/02/20 - 110/8/20</li>
+                    </ul>
                 </div>
-                <div class="col-md-4 col-sm-4 col-xs-12">
-                    <a href="/Ad/Ad Landing Page/Ad Landing-Page.html">
-                        <img class="banner" src="/Images/Weekly-Ad-Home-267x100.jpg" alt="Weekly Banner">
-                    </a>
-                </div>
-                <div class="col-md-4 col-sm-4 col-xs-12">
-                    <a href="">
-                        <img class="banner" src="Images/Big-Catch-Slider-267x100.jpg" alt="Weekly Banner">
-                    </a>
-                </div>
-            </div>
-        </div>
-        <h1 id="heading" class="text-center">Welcome to Convenient Food Mart!</h1>
-        <div class="jumbotron container1">
-            <a href="locations">
-              <div id="carousel" class="carousel slide main-img" data-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img class="d-block w-100" src="/Images/Convenient-On-Sunset-4-1030x687.jpg" alt="First slide" width="70%">
+                <div class="vl"></div>
+                <div class="col-md-8 col-sm-8 col-xs-8" id="ad-display-area">
+                  <div class="panel active" id="ad-img1">
+                    <img src="/Images/CFM Ad - 11-23 - 11-29.jpg" alt="Ad" width="90%">
                   </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="/Images/Convenient-On-Sunset-Deli - 1030x687.jpg" alt="Second slide" width="70%">
+                  <div class="panel" id="ad-img2">
+                    <img src="/Images/CFM Ad - 11-16 - 11-22.jpg" alt="Ad" width="90%">
                   </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="/Images/Convenient-On-Sunset-Front - 1030x687.jpg" alt="Third slide" width="70%">
+                  <div class="panel" id="ad-img3">
+                    <img src="/Images/CFM Ad - 11-9 - 11-15.jpg" alt="Ad" width="90%">
                   </div>
-                </div>
-                <div class="overlay" id="main-overlay">
-                  <div><p id="text">Find a location near you!</p></div>
-                </div>
-              </div>
-              
-            </a>
-        </div>
-        <div>
-            <div id="specials-container" class="row">
-                <div class="specials-box col-md-4 col-sm-6 col-xs-12">
-                    <a href="#">
-                      <div id="special1" class="container-specials-overlay">
-                        <div id="carousel" class="carousel slide" data-ride="carousel">
-                          <div class="carousel-inner">
-                            <div class="carousel-item active">
-                              <img class="d-block w-100" src="/Images/PepperoniRolls - 300x200.png" alt="First slide">
-                            </div>
-                            <div class="carousel-item">
-                              <img class="d-block w-100" src="/Images/Calzones - 300x200.png" alt="Second slide">
-                            </div>
-                            <div class="carousel-item">
-                              <img class="d-block w-100" src="/Images/TailgatePartyHeadquarters - 300x200.jpg" alt="Third slide">
-                            </div>
-                          </div>
-                          <span class="special-span">Great Deals</span>
-                          <div class="overlayspecial">
-                            <div class="textspecial">
-                                <h3>Grab these great deals!</h3>
-                            </div>
-                          </div>
-                        </div>
+                  <div class="panel" id="ad-img4">
+                    <img src="/Images/CFM Ad - 11-2 - 11-8.jpg" alt="Ad" width="90%">
                   </div>
-                    </a>
-                </div>
-                <div class="specials-box col-md-4 col-sm-6 col-xs-12">
-                    <a href="#">
-                        <div class="container-specials-overlay">
-                            <div id="special2">
-                                <span class="special-span">Coffee Club</span>
-                                <div class="overlayspecial">
-                                  <div class="textspecial">
-                                      <h3>Coffee Club</h3>
-                                      Join today!
-                                  </div>
-                              </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="specials-box col-md-4 col-sm-12 col-xs-12">
-                    <a href="/Ad/Ad Landing Page/Ad Landing-Page.html">
-                        <div class="container-specials-overlay">
-                            <div id="special3">
-                                <span class="special-span">Weekly Ad</span>
-                                <div class="overlayspecial">
-                                  <div class="textspecial">
-                                      <h3>Click to view this week's ad!</h3>
-                                  </div>
-                              </div>
-                            </div>
-                        </div>
-                    </a>
                 </div>
             </div>
         </div>
     </main>
     <footer id="footer" class="panel-footer">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
             <section id="hours" class="col-sm-6 text-center">
               <span><b>Contact:</b></span><br>
@@ -205,5 +134,6 @@
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
   </body>
 </html>

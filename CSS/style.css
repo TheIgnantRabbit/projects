@@ -101,10 +101,11 @@ header {
     margin-top: 50px;
     background-color: black;
     color: white;
+    font-size: 1rem;
 }
 
 #hours, #address {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 /******* END FOOTER *********/
@@ -277,8 +278,7 @@ header {
 
 @media (min-width: 768px) and (max-width: 991px) {
     
-    
-    #special2 {
+    /* #special2 {
         background: url(/Images/coffee-220x147.jpg) no-repeat;
     }
     
@@ -293,34 +293,36 @@ header {
         border: 5px solid black;
         margin-right: auto;
         margin-left: auto;
-    }
+    } */
 
     .textspecial {
         font-size: 1rem;
     }
 
-}
+} 
 
-/********** Extra small devices *******/
+/********** Extra small devices ******/
 
-@media (min-width: 580px) and (max-width: 767px) {
+@media (min-width: 582px) and (max-width: 767px) {
     #text {
         font-size: 1.6rem;
     }
-    
+
     #special1 {
         width: 240px;
         height: 194px;
     }
     
     #special2 {
-        background: url(/Images/coffee\ -\ 240x194.jpg);
+        background: url(/Images/CoffeeClubImage\ -\ 240x194.png) no-repeat; 
+        background-size: cover;
         width: 240px;
         height: 194px;
     }
     
     #special3 {
-        background: url(/Images/pizza\ -\ 240x194.jpg);
+        background: url(/Images/Ad-November-Screenshot2\ -\ 240x194.jpg) no-repeat; 
+        background-size: cover;
         width: 240px;
         height: 194px;
         margin-right: auto;
@@ -335,6 +337,9 @@ header {
 
     #special1, #special2 {
         padding: 0;
+    }
+
+    #special2 {
         margin-left: 10px;
     }
 
@@ -347,20 +352,49 @@ header {
     }
 
     #footer {
-        margin-top: 120px;
+        margin-top: 100px;
         background-color: black;
         color: white;
+        font-size: .8em;
     }
-}
+} 
 
 /********* Super small devices only ***********/
 
-@media (max-width: 579px) {
+@media (max-width: 581px) {
     #special1, #special2, #special3 {
         margin-top: 10px;
     }
 
     #text {
         font-size: 1.3rem;
+    }
+
+    #special1 {
+        width: 240px;
+        height: 194px;
+    }
+    
+    #special2 {
+        background: url(/Images/CoffeeClubImage\ -\ 240x194.png) no-repeat;
+        background-size: cover;
+        width: 240px;
+        height: 194px;
+    }
+    
+    #special3 {
+        background: url(/Images/Ad-November-Screenshot2\ -\ 240x194.jpg) no-repeat; 
+        background-size: cover;
+        width: 240px;
+        height: 194px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #footer {
+        margin-top: 200px;
+        background-color: black;
+        color: white;
+        font-size: .5rem;
     }
 }
