@@ -122,11 +122,11 @@ i {
     margin-right: auto;
 }
 
-.management, .hours {
+.management, .hours, .features {
     margin-top: 20px;
 }
 
-.management h3, .hours h3 {
+.management h3, .hours h3, .features h3 {
     font-weight: bold;
     font-size: 1.9em;
     margin-bottom: 10px;

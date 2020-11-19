@@ -1,0 +1,31 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #fe0000;
+}
+
+.express-location h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #fe0000;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.features {
+    margin-right: 20px;
+}
+
+.features span {
+    font-size: 1.8rem;
+}
+
+.features i {
+    margin-top: 10px;
+    font-size: 2rem;
+}

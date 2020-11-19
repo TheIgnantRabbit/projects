@@ -108,6 +108,10 @@ header {
     margin-top: 10px;
 }
 
+.row section {
+    padding-top: 10px;
+}
+
 /******* END FOOTER *********/
 
 /******* MAIN CONTENT ******/
