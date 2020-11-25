@@ -26,20 +26,22 @@ header {
     opacity: .7;
 }
 
-.btn {
+#rewards-btn {
     margin-right: 10px;
+    background-color: #fe0000;
+    border: 1px solid #fbd800;
+    font-weight: bold;
 }
 
-.btn-outline-success {
-    color: white;
-    border-color: #fe0000;
-}
-
-.btn:hover {
-    background-color: white;
+#rewards-btn:hover {
+    background-color: #fbd800;
     color: #fe0000;
     border: 1px solid #fe0000;
-  }
+}
+
+#rewards-btn:active {
+    border: 1px solid #fe0000;
+}
 
 .nav-link {
     text-decoration: none;

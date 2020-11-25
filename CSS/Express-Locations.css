@@ -29,3 +29,64 @@ p {
     margin-top: 10px;
     font-size: 2rem;
 }
+
+.express-specials-big-box {
+    margin-top: 50px;
+}
+
+.express-specials-box {
+    padding: 0;
+}
+
+#expresslocation1 {
+    background: url(/Images/Ad-November-Screenshot2\ -\ 400x300.jpg) no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+}
+
+#expresslocation2 {
+    width: 400px;
+    height: 300px;
+}
+
+
+#expresslocation1, #expresslocation2 {
+    position: relative;
+    border: 3px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+/******** Large Devices *********/
+
+@media (min-width: 1200px) {
+
+}
+
+/************* Medium Devices ***************/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+/************ Small Devices ****************/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    
+
+} 
+
+/********** Extra small devices ******/
+
+@media (min-width: 582px) and (max-width: 767px) {
+    
+} 
+
+/********* Super small devices only ***********/
+
+@media (max-width: 581px) {
+    
+}
