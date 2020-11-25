@@ -155,7 +155,7 @@ header {
     position: relative;
     width: 100%;
     padding-top: 15px;
-  }
+}
 
 
 .overlay {
@@ -169,14 +169,14 @@ header {
     height: 0;
     transition: .5s ease;
     opacity: .8;
-  }
+}
 
-  .container1:hover .overlay {
+.container1:hover .overlay {
     bottom: 0;
     height: 100%;
-  }
+}
   
-  #text {
+#text {
     white-space: nowrap; 
     color: white;
     font-size: 2rem;
@@ -188,12 +188,12 @@ header {
     -ms-transform: translate(-50%, -50%);
     font-weight: bold;
     font-style: italic;
-  }
+}
   
 
 #special1, #special2, #special3 {
-    height: 200px;
-    width: 300px;
+    height: 300px;
+    width: 400px;
     position: relative;
     border: 3px solid black;
     margin-right: auto;
@@ -202,12 +202,12 @@ header {
 }
 
 #special2 {
-    background: url(/Images/CoffeeClubImage\ -\ 300x200.png) no-repeat;
+    background: url(/Images/CoffeeClubImage\ -\ 400x300.png) no-repeat;
     background-size: cover;
 }
 
 #special3 {
-    background: url(/Images/Ad-November-Screenshot2\ -\ 300x200.png) no-repeat;
+    background: url(/Images/Ad-November-Screenshot2\ -\ 400x300.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -270,14 +270,50 @@ header {
 }
 /******** Large Devices *********/
 
-@media (min-width: 1200px) {
-
+@media (max-width: 1200px) {
+    #special1, #special2, #special3 {
+        height: 200px;
+        width: 300px;
+        position: relative;
+        border: 3px solid black;
+        margin-right: auto;
+        margin-left: auto;
+        overflow: hidden;
+    }
+    
+    #special2 {
+        background: url(/Images/) no-repeat;
+        background-size: cover;
+    }
+    
+    #special3 {
+        background: url(/Images/Ad-November-Screenshot2\ -\ 300x200.png) no-repeat;
+        background-size: cover;
+    }
 }
 
 /************* Medium Devices ***************/
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    #special1, #special2, #special3 {
+        height: 200px;
+        width: 300px;
+        position: relative;
+        border: 3px solid black;
+        margin-right: auto;
+        margin-left: auto;
+        overflow: hidden;
+    }
     
+    #special2 {
+        background: url(/Images/CoffeeClubImage\ -\ 300x200.png) no-repeat;
+        background-size: cover;
+    }
+    
+    #special3 {
+        background: url(/Images/Ad-November-Screenshot2\ -\ 300x200.png) no-repeat;
+        background-size: cover;
+    }
 }
 
 /************ Small Devices ****************/
