@@ -133,7 +133,8 @@ header {
 }
 
 #heading {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
+    margin-top: 50px;
     margin-bottom: 15px;
     font-weight: bold;
     font-family: 'Yesteryear', cursive;
@@ -189,6 +190,10 @@ header {
     font-weight: bold;
     font-style: italic;
 }
+
+#carousel {
+    height: 100%;
+}
   
 
 #special1, #special2, #special3 {
@@ -209,6 +214,25 @@ header {
 #special3 {
     background: url(/Images/Ad-November-Screenshot2\ -\ 400x300.jpg) no-repeat;
     background-size: cover;
+}
+
+#firstslide {
+    background: url(/Images/PepperoniRolls\ -\ 400x300.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 294px;
+}
+
+#secondslide {
+    background: url(/Images/Calzones\ -\ 400x300.png) no-repeat;
+    background-size: cover;
+    height: 294px;
+}
+
+#thirdslide {
+    background: url(/Images/TailgatePartyHeadquarters\ -\ 400x300.jpg) no-repeat;
+    background-size: cover;
+    height: 294px;
 }
 
 .special-span {
@@ -314,28 +338,70 @@ header {
         background: url(/Images/Ad-November-Screenshot2\ -\ 300x200.png) no-repeat;
         background-size: cover;
     }
+
+    #firstslide {
+        background: url(/Images/PepperoniRolls\ -\ 300x200.png) no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+    }
+    
+    #secondslide {
+        background: url(/Images/Calzones\ -\ 300x200.png) no-repeat;
+        background-size: cover;
+        height: 200px;
+    }
+    
+    #thirdslide {
+        background: url(/Images/TailgatePartyHeadquarters\ -\ 300x200.jpg) no-repeat;
+        background-size: cover;
+        height: 200px;
+    }
 }
 
 /************ Small Devices ****************/
 
 @media (min-width: 768px) and (max-width: 991px) {
     
-    /* #special2 {
-        background: url(/Images/coffee-220x147.jpg) no-repeat;
+    #special1 {
+        width: 240px;
+        height: 194px;
+    }
+    
+    #special2 {
+        background: url(/Images/CoffeeClubImage\ -\ 240x194.png) no-repeat; 
+        background-size: cover;
+        width: 240px;
+        height: 194px;
     }
     
     #special3 {
-        background: url(/Images/pizza-220x147.jpg) no-repeat;
-    }
-
-    #special1, #special2, #special3 {
-        height: 147px;
-        width: 220px;
-        position: relative;
-        border: 5px solid black;
+        background: url(/Images/Ad-November-Screenshot2\ -\ 240x194.jpg) no-repeat; 
+        background-size: cover;
+        width: 240px;
+        height: 194px;
         margin-right: auto;
         margin-left: auto;
-    } */
+    }
+
+    #firstslide {
+        background: url(/Images/PepperoniRolls\ -\ 240x194.png) no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 194px;
+    }
+    
+    #secondslide {
+        background: url(/Images/Calzones\ -\ 240x194.png) no-repeat;
+        background-size: cover;
+        height: 194px;
+    }
+    
+    #thirdslide {
+        background: url(/Images/TailgatePartyHeadquarters\ -\ 240x194.png) no-repeat;
+        background-size: cover;
+        height: 194px;
+    }
 
     .textspecial {
         font-size: 1rem;
@@ -369,6 +435,25 @@ header {
         height: 194px;
         margin-right: auto;
         margin-left: auto;
+    }
+
+    #firstslide {
+        background: url(/Images/PepperoniRolls\ -\ 240x194.png) no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 194px;
+    }
+    
+    #secondslide {
+        background: url(/Images/Calzones\ -\ 240x194.png) no-repeat;
+        background-size: cover;
+        height: 194px;
+    }
+    
+    #thirdslide {
+        background: url(/Images/TailgatePartyHeadquarters\ -\ 240x194.png) no-repeat;
+        background-size: cover;
+        height: 194px;
     }
 
     .specials-big-box {
@@ -431,6 +516,25 @@ header {
         height: 194px;
         margin-right: auto;
         margin-left: auto;
+    }
+
+    #firstslide {
+        background: url(/Images/PepperoniRolls\ -\ 240x194.png) no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 194px;
+    }
+    
+    #secondslide {
+        background: url(/Images/Calzones\ -\ 240x194.png) no-repeat;
+        background-size: cover;
+        height: 194px;
+    }
+    
+    #thirdslide {
+        background: url(/Images/TailgatePartyHeadquarters\ -\ 240x194.png) no-repeat;
+        background-size: cover;
+        height: 194px;
     }
 
     #footer {
