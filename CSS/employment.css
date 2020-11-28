@@ -1,5 +1,15 @@
+.headingh2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
 form {
     margin-top: 50px;
+}
+
+h2 {
+    font-weight: bold;
 }
 
 label {
@@ -12,8 +22,28 @@ label {
 .form-check input,
 .form-check label {
     display: inline;
+    vertical-align: middle;
 }
 
 .buttons {
     display: inline;
+}
+
+.applicanth2 {
+    margin-bottom: 20px;
+}
+
+.highschoolh3, .collegeh3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.degree {
+    padding-left: 0;
+}
+
+hr {
+    border: 2px solid black;
+    margin-top: 10px;
 }
