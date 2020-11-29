@@ -1,4 +1,4 @@
-.headingh2 {
+.headingh2, .applicanth2, .referencesh2, .additionalInfoh2, .disclaimerh2 {
     margin-top: 20px;
     margin-bottom: 20px;
     font-weight: bold;
@@ -29,11 +29,7 @@ label {
     display: inline;
 }
 
-.applicanth2 {
-    margin-bottom: 20px;
-}
-
-.highschoolh3, .collegeh3 {
+.highschoolh3, .collegeh3, .referenceh3 {
     margin-top: 20px;
     margin-bottom: 20px;
     font-style: italic;
@@ -46,4 +42,33 @@ label {
 hr {
     border: 2px solid black;
     margin-top: 10px;
+}
+
+form h4 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.form-group {
+    padding-left: 0;
+}
+
+#submit-btn {
+    margin-right: 10px;
+    background-color: #fe0000;
+    border: 1px solid #fbd800;
+    font-weight: bold;
+    margin: 0 auto;
+    display: block;
+}
+
+#submit-btn:hover {
+    background-color: #fbd800;
+    color: #fe0000;
+    border: 1px solid #fe0000;
+}
+
+#submit-btn:active {
+    border: 1px solid #fe0000;
 }

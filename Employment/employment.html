@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="/CSS/style.css">
     <link rel="stylesheet" href="/CSS/employment.css">
 
-    <title>Convenient Food Mart</title>
+    <title>Employment - CFM</title>
 
     <!-- Browser Tab Icon -->
     <link rel="shortcut icon" href="/Images/CFMLogoTab.png" type="image/x-icon"/>
@@ -27,7 +27,7 @@
   <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand" href="index.html"><div id="logo"></div></a>
+            <a class="navbar-brand" href="/index.html"><div id="logo"></div></a>
             <button id="navtoggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span id="navtoggleicon" class="navbar-toggler-icon"></span>
             </button>
@@ -92,7 +92,7 @@
         <br>
         <ul>
           <li>
-            <a href="/Employment/Application/CFM-Employment-Application.pdf">CFM Employment Application</a>
+            <a href="/Employment/Application/CFM-Employment-Application.pdf" target="_blank">CFM Employment Application</a>
           </li>
         </ul>
       </p>
@@ -101,16 +101,16 @@
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="name">Name</label>
-                <input type="text" class="form-control" id="name">
+                <input type="text" class="form-control" id="name" required>
               </div>
               <div class="form-group col-md-6">
                 <label for="telephone">Telephone</label>
-                <input type="number" class="form-control" id="telephone">
+                <input type="number" class="form-control" id="telephone" required>
               </div>
             </div>
             <div class="form-group">
               <label for="inputApplicantAddress">Address</label>
-              <input type="text" class="form-control" id="inputApplicantAddress" placeholder="1234 Main St">
+              <input type="text" class="form-control" id="inputApplicantAddress" placeholder="1234 Main St" required>
             </div>
             <div class="form-group">
               <label for="inputApplicantAddress2">Address 2</label>
@@ -119,11 +119,11 @@
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="inputCity">City</label>
-                <input type="text" class="form-control" id="inputCity">
+                <input type="text" class="form-control" id="inputCity" required>
               </div>
               <div class="form-group col-md-4">
                 <label for="inputApplicantState">State</label>
-                <select id="inputApplicantState" class="form-control">
+                <select id="inputApplicantState" class="form-control" required>
                   <option selected>Choose...</option>
                   <option>Alabama</option>
                   <option>Alaska</option>
@@ -178,13 +178,13 @@
               </div>
               <div class="form-group col-md-2">
                 <label for="inputZip">Zip</label>
-                <input type="text" class="form-control" id="inputZip">
+                <input type="text" class="form-control" id="inputZip" required>
               </div>
             </div>
             <div class="form-row">
                 <div class="form-group col-md-4">
                     <label for="inputTelephone">Telephone</label>
-                    <input type="number" class="form-control" id="inputTelephone">
+                    <input type="number" class="form-control" id="inputTelephone" required>
                 </div>
                 <div class="form-group col-md-4">
                     <label for="inputWage">Desired Wage</label>
@@ -192,35 +192,39 @@
                 </div>
                 <div class="form-group col-md-4">
                     <label for="inputPosition">Desired Position</label>
-                    <input type="text" class="form-control" id="inputPosition">
+                    <input type="text" class="form-control" id="inputPosition" required>
                 </div>
+            </div>
+            <div class="form-group col-md-3">
+              <label for="inputStartDate">Date Available</label>
+              <input type="date" class="form-control" id="inputStartDate" required>
             </div>
             <div class="form-check form-check-inline">
               <label>Are you a U.S. Citizen?</label>
-              <input class="form-check-input" type="radio" name="USCitizen" id="USCitizenYes" value="yes">
+              <input class="form-check-input" type="radio" name="USCitizen" id="USCitizenYes" value="yes" required>
               <label class="form-check-label" for="USCitizenYes">Yes</label>
-              <input class="form-check-input" type="radio" name="USCitizen" id="USCitizenNo" value="no">
+              <input class="form-check-input" type="radio" name="USCitizen" id="USCitizenNo" value="no" required>
               <label class="form-check-label" for="USCitizenNo">No</label>
             </div><br>
             <div class="form-check form-check-inline">
               <label>Are you authorized to work in the U.S.?</label>
-              <input class="form-check-input" type="radio" name="WorkInUS" id="WorkInUSYes" value="yes">
+              <input class="form-check-input" type="radio" name="WorkInUS" id="WorkInUSYes" value="yes" required>
               <label class="form-check-label" for="WorkInUSYes">Yes</label>
-              <input class="form-check-input" type="radio" name="WorkInUS" id="WorkInUSNo" value="no">
+              <input class="form-check-input" type="radio" name="WorkInUS" id="WorkInUSNo" value="no" required>
               <label class="form-check-label" for="WorkInUSNo">No</label>
             </div><br>
             <div class="form-check form-check-inline">
               <label>Have you ever worked for this company?</label>
-              <input class="form-check-input" type="radio" name="WorkedForCompany" id="WorkForCompanyYes" value="yes">
+              <input class="form-check-input" type="radio" name="WorkedForCompany" id="WorkForCompanyYes" value="yes" required>
               <label class="form-check-label" for="WorkForCompanyYes">Yes</label>
-              <input class="form-check-input" type="radio" name="WorkedForCompany" id="WorkForCompanyNo" value="no">
+              <input class="form-check-input" type="radio" name="WorkedForCompany" id="WorkForCompanyNo" value="no" required>
               <label class="form-check-label" for="WorkForCompanyNo">No</label>
             </div><br>
             <div class="form-check form-check-inline">
               <label>Have you ever been convicted of a felony?</label>
-              <input class="form-check-input" type="radio" name="Felony" id="FelonyYes" value="yes">
+              <input class="form-check-input" type="radio" name="Felony" id="FelonyYes" value="yes" required>
               <label class="form-check-label" for="FelonyYes">Yes</label>
-              <input class="form-check-input" type="radio" name="Felony" id="FelonyNo" value="no">
+              <input class="form-check-input" type="radio" name="Felony" id="FelonyNo" value="no" required>
               <label class="form-check-label" for="FelonyNo">No</label>
             </div><br>
             <h2>Education</h2>
@@ -229,11 +233,11 @@
               <div class="form-row">
                 <div class="form-group col-md-6">
                   <label for="inputHighSchool">School</label>
-                  <input type="text" class="form-control" id="inputHighSchool">
+                  <input type="text" class="form-control" id="inputHighSchool" required>
                 </div>
                 <div class="form-group col-md-6">
                   <label for="inputHighSchoolAddress">Address</label>
-                  <input type="text" class="form-control" id="inputHighSchoolAddress" placeholder="1234 Main St">
+                  <input type="text" class="form-control" id="inputHighSchoolAddress" placeholder="1234 Main St" required>
                 </div>
               </div>
               <div class="form-row">
@@ -243,11 +247,11 @@
                 </div>
                 <div class="form-group col-md-4">
                   <label for="inputHighSchoolCity">City</label>
-                  <input type="text" class="form-control" id="inputHighSchoolCity">
+                  <input type="text" class="form-control" id="inputHighSchoolCity" required>
                 </div>
                 <div class="form-group col-md-4">
                   <label for="inputHighSchoolState">State</label>
-                  <select id="inputHighSchoolState" class="form-control">
+                  <select id="inputHighSchoolState" class="form-control" required>
                     <option selected>Choose...</option>
                     <option>Alabama</option>
                     <option>Alaska</option>
@@ -304,18 +308,18 @@
               <div class="form-row">
                 <div class="form-group col-md-4">
                   <label for="inputHighSchoolFrom">From</label>
-                  <input type="date" class="form-control" id="inputHighSchoolFrom">
+                  <input type="date" class="form-control" id="inputHighSchoolFrom" required>
                 </div>
                 <div class="form-group col-md-4">
                   <label for="inputHighSchoolTo">To</label>
-                  <input type="date" class="form-control" id="inputHighSchoolTo">
+                  <input type="date" class="form-control" id="inputHighSchoolTo" required>
                 </div>
                 <div class="form-check form-check-inline col-md-3">
                   <label>Did you graduate?</label>
                   <input class="form-check-input" type="radio" name="GraduateHighSchoolYes" id="GraduateYes" value="yes">
-                  <label class="form-check-label" for="GraduateYes">Yes</label>
+                  <label class="form-check-label" for="GraduateYes" required>Yes</label>
                   <input class="form-check-input" type="radio" name="GraduateHighSchoolNo" id="GraduateNo" value="no">
-                  <label class="form-check-label" for="GraduateNo">No</label>
+                  <label class="form-check-label" for="GraduateNo" required>No</label>
                 </div>
               </div>
               <!-- COLLEGE -->
@@ -417,6 +421,7 @@
                 <input type="text" class="form-control" id="inputDegree">
               </div>
               <h2>Previous Employment</h2>
+              <h4>Most Recent First</h4>
               <div class="form-row">
                 <div class="form-group col-md-6">
                   <label for="inputCompanyName1">Company Name</label>
@@ -487,7 +492,6 @@
                     <option>Wyoming</option>
                   </select>
                 </div>
-                <hr>
                 <div class="form-group col-md-4">
                   <label for="inputCompanyTelephone1">Telephone</label>
                   <input type="text" class="form-control" id="inputCompanyTelephone1">
@@ -700,8 +704,71 @@
                 <label for="inputResponsibilities3">Responsibilities</label>
                 <textarea class="form-control" id="inputResponsibilities3" rows="3"></textarea>
               </div>
-              
-              <button type="submit" class="btn btn-primary">Join Us!</button>
+              <!-- REFERENCES -->
+              <h3 class="referencesh2">References</h3>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputRefName1">Name</label>
+                  <input type="text" class="form-control" id="inputRefName1" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputRefRel1">Relationship</label>
+                  <input type="text" class="form-control" id="inputRefRel1" required>
+                </div>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputRefTel1">Telephone</label>
+                <input type="number" class="form-control" id="inputRefTel1" required>
+              </div>
+              <hr>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputRefName2">Name</label>
+                  <input type="text" class="form-control" id="inputRefName2">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputRefRel2">Relationship</label>
+                  <input type="text" class="form-control" id="inputRefRel2">
+                </div>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputRefTel2">Telephone</label>
+                <input type="number" class="form-control" id="inputRefTel2">
+              </div>
+              <hr>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputRefName3">Name</label>
+                  <input type="text" class="form-control" id="inputRefName3">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputRefRel3">Relationship</label>
+                  <input type="text" class="form-control" id="inputRefRel3">
+                </div>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputRefTel3">Telephone</label>
+                <input type="number" class="form-control" id="inputRefTel3">
+              </div>
+              <h2 class="additionalInfoh2">Additional Information</h2>
+              <form action="/action_page.php" class="resume">
+                <label for="myFile">Resume</label><br>
+                <input type="file" id="myFile" name="filename">
+              </form>
+              <br>
+              <div class="form-group">
+                <label for="inputCover">Cover Letter</label>
+                <textarea class="form-control" id="inputCover" rows="3"></textarea>
+              </div>
+              <h2 class="disclaimerh2">Disclaimer and Signature</h2>
+              <p>I certify that my answers are true and complete to the best of my knowledge.
+                If this application leads to employment, I understand that false or misleading information in my application or interview may result in my release.
+              </p>
+              <div class="form-group col-md-6">
+                <label for="inputSig">Signature</label>
+                <input type="text" class="form-control" id="inputSig" placeholder="Signature" required>
+              </div>
+              <button type="submit" id="submit-btn" class="btn btn-primary">Join Us!</button>
         </form>
     </main>
       <footer id="footer" class="panel-footer">
