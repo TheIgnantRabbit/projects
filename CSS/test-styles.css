@@ -146,7 +146,7 @@ header {
 }
 
 .main-img {
-    box-shadow: 8px 8px 8px 8px black;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
     border: 1px solid black;
     margin-right: auto;
     margin-left: auto;
@@ -157,25 +157,6 @@ header {
     position: relative;
     width: 100%;
     padding-top: 15px;
-}
-
-
-.overlay {
-    position: absolute;
-    bottom: 100%;
-    left: 0;
-    right: 0;
-    background-color: #fe0000;
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    transition: .5s ease;
-    opacity: .8;
-}
-
-.container1:hover .overlay {
-    bottom: 0;
-    height: 100%;
 }
   
 #text {
@@ -203,8 +184,6 @@ header {
 
 #special1, #special2, #special3 {
     position: relative;
-    margin-right: auto;
-    margin-left: auto;
     overflow: hidden;
     border-radius: 8px;
 }
@@ -219,6 +198,7 @@ header {
     margin-left: 0;
     margin-right: 0;
     width: 100%;
+    font-weight: bold;
 }
 
 .adPic {
@@ -226,12 +206,32 @@ header {
     padding-right: 0;
 }
 
-#location-map, #special2 {
+.adPic img {
+    margin-left: 20px;
+}
+
+.ad-btn {
+    padding-bottom: 10px;
+}
+
+#ad-btn-btn {
+    margin-right: 10px;
+    background-color: #fe0000;
+    font-weight: bold;
+    border: none;
+}
+
+#ad-btn-btn:hover {
+    background-color: #fbd800;
+    color: #fe0000;
+    border: none;
+}
+
+#location-map, #special2, #special1 {
     margin-top: 40px;
     margin-bottom: 40px;
-    padding-left: 0;
-    padding-right: 0;
-    
+    margin-right: 150px;
+    margin-left: 150px;
 }
 
 #location-map iframe {
@@ -252,72 +252,63 @@ header {
     color: black;
 }
 
-#special2 {
-    background-color: #fe0000;
-    border: 1px solid black;
+#special2, #special1 {
+    background-image: linear-gradient(to right,  #fe0000, #fbd800);
     margin-bottom: 20px;
-    box-shadow: 3px 3px 3px 3px rgb(110, 110, 110);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.ad {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.ad:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#firstslide-text, #secondslide-text, #thirdslide-text {
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.ad-writing, #firstslide-text, #thirdslide-text, #secondslide-text {
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 0;
+    font-weight: bold;
+    line-height: 60px;
+    height: 180px;
 }
 
 .iframe {
-    box-shadow: 3px 3px 3px 3px  rgb(110, 110, 110);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
 }
-
+/**
 #firstslide {
-    background: url(/Images/PepperoniRolls\ -\ 400x300.png) no-repeat;
+    background: url(/Images/PepperoniRolls\ -\ 300x200.png) no-repeat;
     background-size: cover;
     width: 100%;
-    height: auto;
+    height: 200px;
 }
 
 #secondslide {
-    background: url(/Images/Calzones\ -\ 400x300.png) no-repeat;
+    background: url(/Images/Calzones\ -\ 300x200.png) no-repeat;
     background-size: cover;
     width: 100%;
-    height: auto;
+    height: 200px;
 }
 
 #thirdslide {
-    background: url(/Images/TailgatePartyHeadquarters\ -\ 400x300.jpg) no-repeat;
+    background: url(/Images/TailgatePartyHeadquarters\ -\ 300x200.jpg) no-repeat;
     background-size: cover;
     width: 100%;
-    height: auto;
+    height: 200px;
 }
-
-.special-span {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 1.8em;
-    text-decoration: none;
-    color: white;
-    background-color: black;
-    opacity: .7;
-}
-
-.special-span:hover {
-    background-color: white;
-    opacity: .7em;
-    color: black;
-}
-
-.overlayspecial {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #fe0000;
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    transition: .5s ease;
-}
-
-.container-specials-overlay:hover .overlayspecial {
-    height: 100%;
-}
+**/
 
 .textspecial {
     color: white;
@@ -341,251 +332,9 @@ header {
 #header-navlink {
     color: white;
 }
-/******** Large Devices *********/
 
-@media (max-width: 1200px) {
-    #special1, #special2, #special3 {
-        height: 200px;
-        width: 300px;
-        position: relative;
-        border: 3px solid black;
-        margin-right: auto;
-        margin-left: auto;
-        overflow: hidden;
-    }
-    
-    #special2 {
-        background: url(/Images/) no-repeat;
-        background-size: cover;
-    }
-    
-    #special3 {
-        background: url(/Images/Ad-November-Screenshot2\ -\ 300x200.png) no-repeat;
-        background-size: cover;
-    }
-}
 
-/************* Medium Devices ***************/
 
-@media (min-width: 992px) and (max-width: 1199px) {
-    #special1, #special2, #special3 {
-        height: 200px;
-        width: 300px;
-        position: relative;
-        border: 3px solid black;
-        margin-right: auto;
-        margin-left: auto;
-        overflow: hidden;
-    }
-    
-    #special2 {
-        background: url(/Images/CoffeeClubImage\ -\ 300x200.png) no-repeat;
-        background-size: cover;
-    }
-    
-    #special3 {
-        background: url(/Images/Ad-November-Screenshot2\ -\ 300x200.png) no-repeat;
-        background-size: cover;
-    }
 
-    #firstslide {
-        background: url(/Images/PepperoniRolls\ -\ 300x200.png) no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 200px;
-    }
-    
-    #secondslide {
-        background: url(/Images/Calzones\ -\ 300x200.png) no-repeat;
-        background-size: cover;
-        height: 200px;
-    }
-    
-    #thirdslide {
-        background: url(/Images/TailgatePartyHeadquarters\ -\ 300x200.jpg) no-repeat;
-        background-size: cover;
-        height: 200px;
-    }
-}
 
-/************ Small Devices ****************/
 
-@media (min-width: 768px) and (max-width: 991px) {
-    
-    #special1 {
-        width: 240px;
-        height: 194px;
-    }
-    
-    #special2 {
-        background: url(/Images/CoffeeClubImage\ -\ 240x194.png) no-repeat; 
-        background-size: cover;
-        width: 240px;
-        height: 194px;
-    }
-    
-    #special3 {
-        background: url(/Images/Ad-November-Screenshot2\ -\ 240x194.jpg) no-repeat; 
-        background-size: cover;
-        width: 240px;
-        height: 194px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    #firstslide {
-        background: url(/Images/PepperoniRolls\ -\ 240x194.png) no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 194px;
-    }
-    
-    #secondslide {
-        background: url(/Images/Calzones\ -\ 240x194.png) no-repeat;
-        background-size: cover;
-        height: 194px;
-    }
-    
-    #thirdslide {
-        background: url(/Images/TailgatePartyHeadquarters\ -\ 240x194.png) no-repeat;
-        background-size: cover;
-        height: 194px;
-    }
-
-    .textspecial {
-        font-size: 1rem;
-    }
-
-} 
-
-/********** Extra small devices ******/
-
-@media (min-width: 582px) and (max-width: 767px) {
-    #text {
-        font-size: 1.6rem;
-    }
-
-    #special1 {
-        width: 240px;
-        height: 194px;
-    }
-    
-    #special2 {
-        background: url(/Images/CoffeeClubImage\ -\ 240x194.png) no-repeat; 
-        background-size: cover;
-        width: 240px;
-        height: 194px;
-    }
-    
-    #special3 {
-        background: url(/Images/Ad-November-Screenshot2\ -\ 240x194.jpg) no-repeat; 
-        background-size: cover;
-        width: 240px;
-        height: 194px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    #firstslide {
-        background: url(/Images/PepperoniRolls\ -\ 240x194.png) no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 194px;
-    }
-    
-    #secondslide {
-        background: url(/Images/Calzones\ -\ 240x194.png) no-repeat;
-        background-size: cover;
-        height: 194px;
-    }
-    
-    #thirdslide {
-        background: url(/Images/TailgatePartyHeadquarters\ -\ 240x194.png) no-repeat;
-        background-size: cover;
-        height: 194px;
-    }
-
-    .specials-big-box {
-        position: relative;
-        top: 90px;
-        padding: 0;
-    }
-
-    #special1, #special2 {
-        padding: 0;
-    }
-
-    #special2 {
-        margin-left: 10px;
-    }
-
-    #special3 {
-        margin-top: 10px;
-    }
-
-    #footer {
-        margin-top: 100px;
-        background-color: black;
-        color: white;
-        font-size: .8em;
-    }
-} 
-
-/********* Super small devices only ***********/
-
-@media (max-width: 581px) {
-    #special1, #special2, #special3 {
-        margin-top: 10px;
-    }
-
-    #text {
-        font-size: 1.3rem;
-    }
-
-    #special1 {
-        width: 240px;
-        height: 194px;
-    }
-    
-    #special2 {
-        background: url(/Images/CoffeeClubImage\ -\ 240x194.png) no-repeat;
-        background-size: cover;
-        width: 240px;
-        height: 194px;
-    }
-    
-    #special3 {
-        background: url(/Images/Ad-November-Screenshot2\ -\ 240x194.jpg) no-repeat; 
-        background-size: cover;
-        width: 240px;
-        height: 194px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    #firstslide {
-        background: url(/Images/PepperoniRolls\ -\ 240x194.png) no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 194px;
-    }
-    
-    #secondslide {
-        background: url(/Images/Calzones\ -\ 240x194.png) no-repeat;
-        background-size: cover;
-        height: 194px;
-    }
-    
-    #thirdslide {
-        background: url(/Images/TailgatePartyHeadquarters\ -\ 240x194.png) no-repeat;
-        background-size: cover;
-        height: 194px;
-    }
-
-    #footer {
-        margin-top: 200px;
-        background-color: black;
-        color: white;
-        font-size: .5rem;
-    }
-}
