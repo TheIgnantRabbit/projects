@@ -24,10 +24,6 @@
     font-size: 1.5rem;
 }
 
-#ad-display-area img {
-    margin-left: 90px;
-}
-
 #ad-display-area .panel {
     display: none;
 }
@@ -45,4 +41,39 @@
     color:  #fe0000;
     font-size: 1.6rem;
     font-weight: bold;
+}
+
+/** Extra Small (575px and below) **/
+@media (max-width: 575px) {
+    
+}
+
+/** Small devices (landscape phones, 576px and up) **/
+@media (min-width: 576px) and (max-width: 767px) { 
+    .ads li {
+        font-size: 1rem;
+    }
+
+    .ads li:hover {
+        font-size: 1.1rem;
+        color: #fe0000;
+    }
+    
+ }
+
+/** Medium devices (tablets, 768px and up) **/
+@media (min-width: 768px) and (max-width: 991px) {
+    
+ }
+
+/** Large devices (desktops, 992px and up) **/
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+ }
+
+/** Extra large devices (large desktops, 1200px and up) **/
+@media (min-width: 1200px) { ... }
+
+
+
 }
