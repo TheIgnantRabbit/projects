@@ -24,6 +24,16 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <!-- Javascript -->
     
+    <!-- Map functionality -->
+    <script src="storelocator/js/store-data.js"></script>
+    <script src="storelocator/js/index.js"></script>
+    <link rel="stylesheet" href="storelocator/style/style.css" />
+    <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+    <link
+      rel="shortcut icon"
+      href="img/google-maps-icon.png"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <header>
@@ -47,7 +57,7 @@
                   Locations
                 </a>
                 <div class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="/Location/Barnesville/Barnesville-Page.html">Barnesville</a>
+                  <a class="dropdown-item" href="/Location/Barnesville/Barnesville-New.html">Barnesville</a>
                   <a class="dropdown-item" href="#">Beallsville</a>
                   <a class="dropdown-item" href="#">Bethlehem</a>
                   <a class="dropdown-item" href="#">Bloomingdale</a>
@@ -68,38 +78,21 @@
                   <a id="header-navlink" class="nav-link" href="/Employment/employment.html">Employment</a>
                 </li>
                 <li class="nav-item">
-                  <a id="header-navlink" class="nav-link" href="#">Contact Us</a>
+                  <a id="header-navlink" class="nav-link" href="/Contact/Contact-us.html">Contact Us</a>
                 </li>
               </ul>
-          <a id="rewards" class="align-items-center" href="https://www.rollbackrewards.com/consumer/Login.action?message=&redirUrl=&fbclid=IwAR213DY_O-Q90A4_hi6zlGya3nQOHinPLZ1BR8jrbezuSvDCbTEtesaT018" target="_blank" role="button">
+          <a id="rewards"  href="https://www.rollbackrewards.com/consumer/Login.action?message=&redirUrl=&fbclid=IwAR213DY_O-Q90A4_hi6zlGya3nQOHinPLZ1BR8jrbezuSvDCbTEtesaT018" target="_blank" role="button">
             <i class="fa fa-user-circle" aria-hidden="true"></i><br>
-            Rewards
+              <p>
+                Rewards
+              </p>
           </a>
         </div>
       </nav>
     </header>
     <hr class="line">
     
-    <main id="main-content" class="container-fluid">
-        <!--<div class="banner-div text-center d-none d-sm-block">
-            <div class="row">
-                <div class="col-md-4 col-sm-4 col-xs-12">
-                    <a href="">
-                        <img class="banner" src="Images/Breakfast-and-Coffee-Slider-267x100.jpg" alt="Weekly Banner">
-                    </a>
-                </div>
-                <div class="col-md-4 col-sm-4 col-xs-12">
-                    <a href="/Ad/Ad Landing Page/Ad Landing-Page.html">
-                        <img class="banner" src="/Images/Weekly-Ad-Home-267x100.jpg" alt="Weekly Banner">
-                    </a>
-                </div>
-                <div class="col-md-4 col-sm-4 col-xs-12">
-                    <a href="">
-                        <img class="banner" src="Images/Big-Catch-Slider-267x100.jpg" alt="Weekly Banner">
-                    </a>
-                </div>
-            </div>
-        </div> -->
+    <main id="main-content" class="container">
         <h1 id="heading" class="text-center">Welcome to Convenient Food Mart!</h1>
         <div class="jumbotron container1">
           <a href="locations">
@@ -116,7 +109,7 @@
                 </div>
               </div>
               <div class="overlay" id="main-overlay">
-                <a href="Location/Location-Locator.html"><div><p id="text">Find a location near you!</p></div></a>
+                <a href="storelocator/index.html" target="_blank"><div><p id="text">Find a location near you!</p></div></a>
               </div>
             </div>
           </a>
@@ -132,7 +125,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 deals-div">
               <div id="special1">
                 <div class="row align-items-center">
-                  <div id="carousel" class="carousel slide col-lg-6 col-md-12 col-sm-12 col-xs-12" data-ride="carousel" data-pause="false">
+                  <div  class="carousel slide col-lg-6 col-md-12 col-sm-12 col-xs-12" data-ride="carousel" data-pause="false">
                     <div class="carousel-inner text-sm-center text-xs-center">
                       <div id="firstslide" class="carousel-item active">
                         <img src="/Images/6_SubCombo.png" alt="Pepperoni Rolls" width="100%">
@@ -145,7 +138,7 @@
                       </div>
                     </div>
                   </div>
-                  <div id="carousel" class="carousel slide col-lg-6 col-md-12 col-sm-12 col-xs-12 align-middle" data-ride="carousel" data-pause="false">
+                  <div class="carousel slide col-lg-6 col-md-12 col-sm-12 col-xs-12 align-middle" data-ride="carousel" data-pause="false">
                     <div class="carousel-inner">
                       <div id="firstslide-text" class="carousel-item active">
                         <h2 class="text-lg-left text-md-center text-sm-center text-xs-center">$5.99</h2>
@@ -208,14 +201,32 @@
               </div>
               <hr class="col-lg-12 col-md-7 col-sm-7 col-xs-7 locationHr">
             </div>
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <a href="#" class="">
-                <div class="col locationsdiv">
-                  <div id="location-map" class="text-center">
-                    <iframe class="iframe" src="https://www.google.com/maps/d/u/0/embed?mid=17TxX_b92qzC_ocg9hw_r1Bdtc0tltiTh" width="1000" height="480" target="_blank"></iframe>
+            <div class="col-md-12 col-sm-12 col-xs-12" id="location-map">
+                <div class="search-container">
+                  <div class="search">
+                    <input type="text" id="zip-code-input" placeholder="Enter Zip" />
+                    <i class="fas fa-search" onclick="searchStores()"></i>
                   </div>
                 </div>
-              </a>
+                <div class="stores-list-container">
+                  <div class="stores-list">
+                    <div class="store-container">
+                      <div class="store-info-container">
+                        <div class="store-address">
+                          <span>8480 Beverly Blvd</span>
+                          <span>Los Angeles, CA 90048</span>
+                        </div>
+                        <div class="store-phone-number">+92 308 1334342</div>
+                      </div>
+                      <div class="store-number-container">
+                        <div class="store-number">
+                          1
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="map"></div>
             </div>
           </div>
         </div>
@@ -223,23 +234,25 @@
       <hr class="visible-xs">
       <footer id="footer" class="panel-footer">
         <div class="container-fluid">
-          <section id="address" class="col text-center">
-            <h6><b>CFM Development Corporation</b></h6>
-            3642 Jacob Street<br>
-            Wheeling, WV 26003<br>
+            <section id="address" class="col text-center">
+            <h6><b>Convenient Food Mart</b></h6>
+            1007 S Zane Hwy<br>
+            Martins Ferry, OH, 43935<br>
             <h5 class="follow"><b>Follow Us!</b></h5>
             <div class="icons text-center">
-              <a class="social" href="https://www.instagram.com/cfmov/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-              <a class="social" href="https://twitter.com/CFMov" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a class="social" href="https://www.instagram.com/cfmov/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a class="social" href="https://twitter.com/CFMov" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
             </div>
-          </section>
-          <div class=" col text-center">
+            </section>
+            <div class=" col text-center">
             &copy; CFM
-          </div>
-          <br>
+            </div>
+            <br>
         </div>
-      </footer>
-
+        </footer>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgkSM9Gy9Hfp6C5tIRs4Pi2ChG9b9U8Js&callback=initMap">
+        </script>
     <script src="https://use.fontawesome.com/88762a3ba7.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>

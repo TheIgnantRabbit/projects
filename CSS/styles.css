@@ -120,6 +120,11 @@ header {
     font-size: 2rem;
     color: black;
     margin-left: 10px;
+    text-decoration: none;
+}
+
+.social:hover {
+    color: #fe0000;
 }
 
 .follow {
@@ -194,10 +199,15 @@ h2, h3 {
 
 #carousel {
     height: 100%;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .5), 0 1px 4px rgba(0, 0, 0, .5);
 }
 
 .carousel-inner {
     border-radius: 8px;
+}
+
+.contact-logo {
+    margin-top: 40px;
 }
 
 .container1:hover .overlay {
@@ -245,7 +255,7 @@ h2, h3 {
 }
 
 .iframe {
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .5), 0 1px 4px rgba(0, 0, 0, .5);
 }
 
 .jumbotron {
@@ -267,17 +277,15 @@ h2, h3 {
     font-weight: bold;
 }
 
-#location-map, #special2, #special1 {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-right: 150px;
-    margin-left: 150px;
+ #special2, #special1 {
+    margin: 40px 150px;
 }
 
-#location-map iframe {
-    width: 100%;
+#location-map{
+    width: 75%;
     border-radius: 8px;
     border: none;
+    margin: 40px auto;
 }
 
 .locationsdiv {
@@ -293,12 +301,17 @@ h2, h3 {
 }
 
 .main-img {
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .5), 0 1px 4px rgba(0, 0, 0, .5);
     -moz-box-shadow: 0 0 3px black;
     -webkit-box-shadow: 0 0 3px black;
     margin-right: auto;
     margin-left: auto;
     border-radius: 8px;
+}
+
+.map-div iframe {
+    border-radius: 8px;
+    border: none;
 }
 
 .overlay {
@@ -319,7 +332,8 @@ h2, h3 {
     text-decoration: none;
     font-size: 1.2rem;
     color: #fe0000;
-    margin-right: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
 }
 
 #rewards i {
@@ -341,7 +355,7 @@ h2, h3 {
 #special2, #special1 {
     background-image: linear-gradient(to right,  #fe0000, #fbd800);
     margin-bottom: 20px;
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .5), 0 1px 4px rgba(0, 0, 0, .5);
 }
 
 #text {
@@ -364,11 +378,17 @@ h2, h3 {
         background-image: linear-gradient(to right,  #fe0000, #fbd800);
         box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
         border-radius: 8px;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     #special1, #special2 {
         background-image: none;
         box-shadow: none;
+    }
+
+    #location-map {
+        width: 100%;
     }
 }
 
@@ -378,11 +398,17 @@ h2, h3 {
         background-image: linear-gradient(to right,  #fe0000, #fbd800);
         box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
         border-radius: 8px;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     #special1, #special2 {
         background-image: none;
         box-shadow: none;
+    }
+
+    #location-map {
+        width: 100%;
     }
  }
 
@@ -397,6 +423,10 @@ h2, h3 {
     #special1, #special2 {
         background-image: none;
         box-shadow: none;
+    }
+
+    #location-map {
+        width: 100%;
     }
  }
 

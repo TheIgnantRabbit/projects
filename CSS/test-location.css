@@ -164,6 +164,12 @@ header {
     border: none;
 }
 
+.adCFME {
+    padding: 5px;
+    border-radius: 10px;
+    width: 50%;
+}
+
 .adPic {
     padding-left: 0;
     padding-right: 0;
@@ -171,6 +177,17 @@ header {
 
 .adPic img {
     margin-left: 20px;
+}
+
+.adText h4 {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.adText p {
+    font-size: 1.5rem;
 }
 
 .ad-writing, #firstslide-text, #thirdslide-text, #secondslide-text {
@@ -196,7 +213,7 @@ header {
 }
 
 .carousel-inner {
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .container1:hover .overlay {
@@ -208,6 +225,26 @@ header {
     position: relative;
     width: 100%;
     padding-top: 15px;
+}
+
+.expandDaily img, .expandChicken img, .expandCatering img {
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .5), 0 1px 4px rgba(0, 0, 0, .5);
+    border: 0;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.featureDiv {
+    background-image: linear-gradient(to right,  #fe0000, #fbd800);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .5), 0 1px 4px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.featuresContainer h3, .menuContainer h3, .adContainer h3 {
+    margin: 20px auto;
 }
 
 #firstslide-text, #secondslide-text, #thirdslide-text {
@@ -245,7 +282,7 @@ h2, h3 {
 }
 
 .iframe {
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .5), 0 1px 4px rgba(0, 0, 0, .5);
 }
 
 .info h3 {
@@ -258,25 +295,57 @@ h2, h3 {
 }
 
 .main-img {
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .5), 0 1px 4px rgba(0, 0, 0, .5);
     -moz-box-shadow: 0 0 3px black;
     -webkit-box-shadow: 0 0 3px black;
     margin-right: auto;
     margin-left: auto;
-    border-radius: 8px;
-}
-
-.map-div {
-    margin-top: 20px;
+    border-radius: 10px;
 }
 
 #map {
-    border-radius: 8px;
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .5), 0 1px 4px rgba(0, 0, 0, .5);
     -moz-box-shadow: 0 0 3px black;
     -webkit-box-shadow: 0 0 3px black;
-    margin-top: 20px;
 }
+
+.map-div {
+    margin-top: 80px;
+    position: relative;
+}
+
+.map-div h3 {
+    margin-bottom: 40px;
+}
+
+
+.menuContainer, .adContainer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.menuDaily, .menuChicken, .menuCatering, .adCFME {
+    cursor: pointer;
+}
+
+.menuDiv, .adDiv {
+    background-image: linear-gradient(to right,  #fe0000, #fbd800);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .5), 0 1px 4px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.menuDivTransform {
+    transform: scale(1.3, 1.3);
+}
+
+.adDivTransform {
+    transform: scale(1.3, 1.3);
+}
+
 
 .overlay {
     position: absolute;
@@ -317,7 +386,7 @@ h2, h3 {
 
 #location-map iframe {
     width: 100%;
-    border-radius: 8px;
+    border-radius: 10px;
     border: none;
 }
 
@@ -336,6 +405,7 @@ h2, h3 {
 .management img {
     border-radius: 8px;
     margin-top: 20px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .5), 0 1px 4px rgba(0, 0, 0, .5);
 }
 
 .managername {
@@ -361,16 +431,24 @@ h2, h3 {
     background-color: white;
 }
 
+.services, .freshFood, .PartAndBev {
+    margin: 40px auto;
+}
+
+.services h4, .freshFood h4, .PartAndBev h4 {
+    font-weight: bold;
+}
+
 #special1, #special2, #special3 {
     position: relative;
     overflow: hidden;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 #special2, #special1 {
     background-image: linear-gradient(to right,  #fe0000, #fbd800);
     margin-bottom: 20px;
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .5), 0 1px 4px rgba(0, 0, 0, .5);
 }
 
 #store-info-link {
@@ -384,9 +462,18 @@ h2, h3 {
     color: #fe0000;
 }
 
+.store-info a {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 #store-info i {
     margin-right: 10px;
-    padding-left: 100px;
+}
+
+#store-info h3 {
+    margin-right: auto;
+    margin-left: auto;
 }
   
 #text {
@@ -423,6 +510,18 @@ h2, h3 {
 
 /** Extra Small (575px and below) **/
 @media (max-width: 575px) {
+    .adCFME {
+        width: 60%;
+    }
+    
+    .adText h4 {
+        font-size: 1.7rem;
+    }
+    
+    .adText p {
+        font-size: 1.3rem;
+    }
+    
     #heading {
         font-size: 2rem;
     }
@@ -431,28 +530,79 @@ h2, h3 {
         font-size: 1.7rem;
     }
 
+    .info #store-info-link {
+        text-align: left;
+    }
+
     .hours h3 {
         font-size: 1.7rem;
     }
 
     #store-info-link {
-        font-size: 1rem;
+        font-size: .7rem;
     }
 
     .hours-table {
         font-size: 1rem;
     }
 
+    .jumbotron {
+        padding: 5px 5px;
+    }
+
+    #map {
+        height: 400px;
+        width: 400px;
+    }
+
+    .menuDiv img, .adDiv img {
+        width: 75%;
+    }
 
 }
 
 /** Small devices (landscape phones, 576px and up) **/
 @media (min-width: 576px) and (max-width: 767px) { 
+    .adCFME {
+        width: 60%;
+    }
     
+    .adText h4 {
+        font-size: 1.7rem;
+    }
+    
+    .adText p {
+        font-size: 1.3rem;
+    }
+    
+    #map {
+        height: 400px;
+        width: 400px;
+    }
+
+    #heading {
+        font-size: 3rem;
+    }
+
+    #store-info-link {
+        font-size: 1.1rem;
+    }
+
+    .hours table {
+        font-size: 1.1rem;
+    }
+
+    .jumbotron {
+        padding: 5px 5px;
+    }
  }
 
-/** Medium devices (tablets, 768px and up) **/
+/** Medium devices (tablets, 768px to 991px) **/
 @media (min-width: 768px) and (max-width: 991px) {
+    .adCFME {
+        width: 75%;
+    }
+    
     #heading {
         font-size: 2.5rem;
     }
@@ -461,31 +611,42 @@ h2, h3 {
         font-size: 1.3rem;
     }
 
+    .info {
+        text-align: left;
+    }
+
     .hours h3 {
         font-size: 1.3rem;
     }
 
+    #map {
+        height: 400px;
+        width: 400px;
+    }
+
     #store-info-link {
-        font-size: .7rem;
+        font-size: .8rem;
     }
 
     .hours-table {
         font-size: .7rem;
     }
-
-    .store-info-link {
-        text-align: left;
-    }
  }
 
-/** Large devices (desktops, 992px and up) **/
+
+
+/** Large devices (desktops, 992px to 1199px) **/
 @media (min-width: 992px) and (max-width: 1199px) {
+    .adCFME {
+        width: 75%;
+    }
+
     #heading {
         font-size: 3rem;
     }
 
     #store-info-link {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
  }
 
