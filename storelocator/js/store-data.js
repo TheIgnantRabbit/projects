@@ -1332,7 +1332,7 @@ let stores = [{
     "ownershipTypeCode": "CO",
     "open": true,
     "openStatusText": "Open until 9:00 PM",
-    "addressLines": ["72090 Colerain Rd", "Colerain, OH 43912"],
+    "addressLines": ["72090 Colerain Rd", "Bridgeport, OH 43912"],
     "mop": {
         "ready": false,
         "wait": null
@@ -1532,8 +1532,8 @@ let stores = [{
     "name": "Convenient Food Mart Express - Belmont",
     "phoneNumber": "304-665-2135",
     "coordinates": {
-        "latitude": 39.381041337500804, 
-        "longitude": -81.2607394623506 
+        "latitude": 39.38104958096179,  
+        "longitude": -81.26071614226672 
     },
     "regulations": [],
     "address": {
@@ -1553,7 +1553,7 @@ let stores = [{
     "brandName": "Convenient Food Mart",
     "ownershipTypeCode": "CO",
     "open": true,
-    "openStatusText": "Open until 10:00 PM",
+    "openStatusText": "Open until 10:30 PM",
     "addressLines": ["504 Riverside St, Rt 2", "Belmont, WV 26134"],
     "mop": {
         "ready": false,
@@ -1635,7 +1635,118 @@ let stores = [{
         "code": "UE",
         "name": "tbd - Uber Eats"
     }],
-    "slug": "convenient-food-mart-express-belmont-504-riverside-st-rt-2-belmont-wv-26134"
+    "slug": "convenient-food-mart-express-ravenswood-112-ravenswood-rd-ravenswood-wv-26164"
+}, {
+    "recommendation": {},
+    "storeNumber": "47",
+    "id": "2516",
+    "name": "Convenient Food Mart - Williamstown",
+    "phoneNumber": "304-375-5870",
+    "coordinates": {
+        "latitude": 39.39746776627149,  
+        "longitude": -81.44879467904899
+    },
+    "regulations": [],
+    "address": {
+        "streetAddressLine1": "802 Highland Ave",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Williamstown",
+        "countrySubdivisionCode": "WV",
+        "countryCode": "US",
+        "postalCode": "26187"
+    },
+    "timeZoneInfo": {
+        "currentTimeOffset": -240,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+    },
+    "brandName": "Convenient Food Mart",
+    "ownershipTypeCode": "CO",
+    "open": true,
+    "openStatusText": "Open until 10:00 PM",
+    "addressLines": ["802 Highland Ave", "Williamstown, WV 26187"],
+    "mop": {
+        "ready": false,
+        "wait": null
+    },
+    "schedule": [{
+        "dayName": "Saturday",
+        "hours": "5:30 AM to 10:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Sunday",
+        "hours": "7:30 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Monday",
+        "hours": "5:30 AM to 10:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Tuesday",
+        "hours": "5:30 AM to 10:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Wednesday",
+        "hours": "5:30 AM to 10:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Thursday",
+        "hours": "5:30 AM to 10:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Friday",
+        "hours": "5:30 AM to 10:00 PM",
+        "open": true,
+        "holiday": ""
+    }],
+    "features": [{
+        "code": "WA",
+        "name": "Oven-warmed Food"
+    }, {
+        "code": "VS",
+        "name": "Verismo"
+    }, {
+        "code": "CD",
+        "name": "Mobile Payment"
+    }, {
+        "code": "DR",
+        "name": "Digital Rewards"
+    }, {
+        "code": "LB",
+        "name": "LaBoulange"
+    }, {
+        "code": "GO",
+        "name": "Google Wi-Fi"
+    }, {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+    }, {
+        "code": "MX",
+        "name": "Music Experience"
+    }, {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+    }, {
+        "code": "BE",
+        "name": "Blonde Espresso"
+    }, {
+        "code": "LU",
+        "name": "Lunch"
+    }, {
+        "code": "PS",
+        "name": "Playbook Store System"
+    }, {
+        "code": "UE",
+        "name": "tbd - Uber Eats"
+    }],
+    "slug": "convenient-food-mart-williamstown-802-highland-ave-williamstown-wv-26187"
 }, {
     "recommendation": {},
     "storeNumber": "61",
@@ -1648,7 +1759,7 @@ let stores = [{
     },
     "regulations": [],
     "address": {
-        "streetAddressLine1": "4139 Freedom Way",
+        "streetAddressLine1": "112 S Washington St",
         "streetAddressLine2": null,
         "streetAddressLine3": null,
         "city": "Ravenswood",
@@ -1665,7 +1776,7 @@ let stores = [{
     "ownershipTypeCode": "CO",
     "open": true,
     "openStatusText": "Open until 10:30 PM",
-    "addressLines": ["4139 Freedom Way", "Ravenswood, WV 26164"],
+    "addressLines": ["112 S Washington St", "Ravenswood, WV 26164"],
     "mop": {
         "ready": false,
         "wait": null
@@ -1858,4 +1969,559 @@ let stores = [{
         "name": "tbd - Uber Eats"
     }],
     "slug": "convenient-food-mart-express-weirton-4139-freedom-way-weirton-wv-26062"
-}, ]
+}, {
+    "recommendation": {},
+    "storeNumber": "200",
+    "id": "154187",
+    "name": "Convenient Food Mart Express - Weirton",
+    "phoneNumber": "304-723-2944",
+    "coordinates": {
+        "latitude": 40.416317227339164,  
+        "longitude": -80.55324252678946  
+    },
+    "regulations": [],
+    "address": {
+        "streetAddressLine1": "2820 Pennsylvania Ave",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Weirton",
+        "countrySubdivisionCode": "WV",
+        "countryCode": "US",
+        "postalCode": "26062"
+    },
+    "timeZoneInfo": {
+        "currentTimeOffset": -240,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+    },
+    "brandName": "Convenient Food Mart",
+    "ownershipTypeCode": "CO",
+    "open": true,
+    "openStatusText": "Open until 9:00 PM",
+    "addressLines": ["2820 Pennsylvania Ave", "Weirton, WV 26062"],
+    "mop": {
+        "ready": false,
+        "wait": null
+    },
+    "schedule": [{
+        "dayName": "Saturday",
+        "hours": "6:00 AM to 10:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Sunday",
+        "hours": "8:00 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Monday",
+        "hours": "6:00 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Tuesday",
+        "hours": "6:00 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Wednesday",
+        "hours": "6:00 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Thursday",
+        "hours": "6:00 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Friday",
+        "hours": "6:00 AM to 10:00 PM",
+        "open": true,
+        "holiday": ""
+    }],
+    "features": [{
+        "code": "WA",
+        "name": "Oven-warmed Food"
+    }, {
+        "code": "VS",
+        "name": "Verismo"
+    }, {
+        "code": "CD",
+        "name": "Mobile Payment"
+    }, {
+        "code": "DR",
+        "name": "Digital Rewards"
+    }, {
+        "code": "LB",
+        "name": "LaBoulange"
+    }, {
+        "code": "GO",
+        "name": "Google Wi-Fi"
+    }, {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+    }, {
+        "code": "MX",
+        "name": "Music Experience"
+    }, {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+    }, {
+        "code": "BE",
+        "name": "Blonde Espresso"
+    }, {
+        "code": "LU",
+        "name": "Lunch"
+    }, {
+        "code": "PS",
+        "name": "Playbook Store System"
+    }, {
+        "code": "UE",
+        "name": "tbd - Uber Eats"
+    }],
+    "slug": "convenient-food-mart-express-weirton-2620-pennsylvania-ave-weirton-wv-26062"
+}, {
+    "recommendation": {},
+    "storeNumber": "300",
+    "id": "2518",
+    "name": "Convenient Food Mart Express - Limestone",
+    "phoneNumber": "304-845-3894",
+    "coordinates": {
+        "latitude": 39.93108948473338, 
+        "longitude": -80.64543238905418    
+    },
+    "regulations": [],
+    "address": {
+        "streetAddressLine1": "5815 Waynesburg Pike Rd",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Moundsville",
+        "countrySubdivisionCode": "WV",
+        "countryCode": "US",
+        "postalCode": "26041"
+    },
+    "timeZoneInfo": {
+        "currentTimeOffset": -240,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+    },
+    "brandName": "Convenient Food Mart",
+    "ownershipTypeCode": "CO",
+    "open": true,
+    "openStatusText": "Open until 9:00 PM",
+    "addressLines": ["5815 Waynesburg Pike Rd", "Moundsville, WV 26041"],
+    "mop": {
+        "ready": false,
+        "wait": null
+    },
+    "schedule": [{
+        "dayName": "Saturday",
+        "hours": "6:00 AM to 10:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Sunday",
+        "hours": "8:00 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Monday",
+        "hours": "6:00 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Tuesday",
+        "hours": "6:00 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Wednesday",
+        "hours": "6:00 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Thursday",
+        "hours": "6:00 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Friday",
+        "hours": "6:00 AM to 10:00 PM",
+        "open": true,
+        "holiday": ""
+    }],
+    "features": [{
+        "code": "WA",
+        "name": "Oven-warmed Food"
+    }, {
+        "code": "VS",
+        "name": "Verismo"
+    }, {
+        "code": "CD",
+        "name": "Mobile Payment"
+    }, {
+        "code": "DR",
+        "name": "Digital Rewards"
+    }, {
+        "code": "LB",
+        "name": "LaBoulange"
+    }, {
+        "code": "GO",
+        "name": "Google Wi-Fi"
+    }, {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+    }, {
+        "code": "MX",
+        "name": "Music Experience"
+    }, {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+    }, {
+        "code": "BE",
+        "name": "Blonde Espresso"
+    }, {
+        "code": "LU",
+        "name": "Lunch"
+    }, {
+        "code": "PS",
+        "name": "Playbook Store System"
+    }, {
+        "code": "UE",
+        "name": "tbd - Uber Eats"
+    }],
+    "slug": "convenient-food-mart-express-limestone-5815-waynesburg-pike-rd-moundsville-wv-26041"
+}, {
+    "recommendation": {},
+    "storeNumber": "500",
+    "id": "3162",
+    "name": "K&T Truck Stop",
+    "phoneNumber": "304-367-1537",
+    "coordinates": {
+        "latitude": 39.49592070574582,  
+        "longitude": -80.10291122885612    
+    },
+    "regulations": [],
+    "address": {
+        "streetAddressLine1": "73 Meadowdale Rd",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Fairmont",
+        "countrySubdivisionCode": "WV",
+        "countryCode": "US",
+        "postalCode": "26554"
+    },
+    "timeZoneInfo": {
+        "currentTimeOffset": -240,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+    },
+    "brandName": "Convenient Food Mart",
+    "ownershipTypeCode": "CO",
+    "open": true,
+    "openStatusText": "Open 24h",
+    "addressLines": ["73 Meadowdale Rd", "Fairmont, WV 26554"],
+    "mop": {
+        "ready": false,
+        "wait": null
+    },
+    "schedule": [{
+        "dayName": "Saturday",
+        "hours": "12:00 AM to 11:59 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Sunday",
+        "hours": "12:00 AM to 11:59 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Monday",
+        "hours": "12:00 AM to 11:59 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Tuesday",
+        "hours": "12:00 AM to 11:59 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Wednesday",
+        "hours": "12:00 AM to 11:59 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Thursday",
+        "hours": "12:00 AM to 11:59 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Friday",
+        "hours": "12:00 AM to 11:59 PM",
+        "open": true,
+        "holiday": ""
+    }],
+    "features": [{
+        "code": "WA",
+        "name": "Oven-warmed Food"
+    }, {
+        "code": "VS",
+        "name": "Verismo"
+    }, {
+        "code": "CD",
+        "name": "Mobile Payment"
+    }, {
+        "code": "DR",
+        "name": "Digital Rewards"
+    }, {
+        "code": "LB",
+        "name": "LaBoulange"
+    }, {
+        "code": "GO",
+        "name": "Google Wi-Fi"
+    }, {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+    }, {
+        "code": "MX",
+        "name": "Music Experience"
+    }, {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+    }, {
+        "code": "BE",
+        "name": "Blonde Espresso"
+    }, {
+        "code": "LU",
+        "name": "Lunch"
+    }, {
+        "code": "PS",
+        "name": "Playbook Store System"
+    }, {
+        "code": "UE",
+        "name": "tbd - Uber Eats"
+    }],
+    "slug": "k-&-t-truck-stop-73-meadowdale-rd-fairmont-wv-26554"
+}, {
+    "recommendation": {},
+    "storeNumber": "600",
+    "id": "2480",
+    "name": "Convenient Food Mart Express - Triadelphia",
+    "phoneNumber": "304-909-0285",
+    "coordinates": {
+        "latitude": 40.04833057877319,  
+        "longitude": -80.6392522134076    
+    },
+    "regulations": [],
+    "address": {
+        "streetAddressLine1": "38 National Rd",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Triadelphia",
+        "countrySubdivisionCode": "WV",
+        "countryCode": "US",
+        "postalCode": "26059"
+    },
+    "timeZoneInfo": {
+        "currentTimeOffset": -240,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+    },
+    "brandName": "Convenient Food Mart",
+    "ownershipTypeCode": "CO",
+    "open": true,
+    "openStatusText": "Open until 9:00 PM",
+    "addressLines": ["38 National Rd", "Triadelphia, WV 26059"],
+    "mop": {
+        "ready": false,
+        "wait": null
+    },
+    "schedule": [{
+        "dayName": "Saturday",
+        "hours": "7:00 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Sunday",
+        "hours": "8:00 AM to 8:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Monday",
+        "hours": "6:00 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Tuesday",
+        "hours": "6:00 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Wednesday",
+        "hours": "6:00 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Thursday",
+        "hours": "6:00 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Friday",
+        "hours": "6:00 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+    }],
+    "features": [{
+        "code": "WA",
+        "name": "Oven-warmed Food"
+    }, {
+        "code": "VS",
+        "name": "Verismo"
+    }, {
+        "code": "CD",
+        "name": "Mobile Payment"
+    }, {
+        "code": "DR",
+        "name": "Digital Rewards"
+    }, {
+        "code": "LB",
+        "name": "LaBoulange"
+    }, {
+        "code": "GO",
+        "name": "Google Wi-Fi"
+    }, {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+    }, {
+        "code": "MX",
+        "name": "Music Experience"
+    }, {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+    }, {
+        "code": "BE",
+        "name": "Blonde Espresso"
+    }, {
+        "code": "LU",
+        "name": "Lunch"
+    }, {
+        "code": "PS",
+        "name": "Playbook Store System"
+    }, {
+        "code": "UE",
+        "name": "tbd - Uber Eats"
+    }],
+    "slug": "convenient-food-mart-express-triadelphia-38-national-rd-triadelphia-wv-26059"
+}, {
+    "recommendation": {},
+    "storeNumber": "700",
+    "id": "35160",
+    "name": "Convenient Food Mart Express - Wellsburg",
+    "phoneNumber": "304-737-2767",
+    "coordinates": {
+        "latitude": 40.26897581956071,   
+        "longitude": -80.6114029999978   
+    },
+    "regulations": [],
+    "address": {
+        "streetAddressLine1": "601 Commerce St",
+        "streetAddressLine2": null,
+        "streetAddressLine3": null,
+        "city": "Wellsburg",
+        "countrySubdivisionCode": "WV",
+        "countryCode": "US",
+        "postalCode": "26070"
+    },
+    "timeZoneInfo": {
+        "currentTimeOffset": -240,
+        "windowsTimeZoneId": "Eastern Standard Time",
+        "olsonTimeZoneId": "GMT-05:00 America/New_York"
+    },
+    "brandName": "Convenient Food Mart",
+    "ownershipTypeCode": "CO",
+    "open": true,
+    "openStatusText": "Open until 11:00 PM",
+    "addressLines": ["601 Commerce St", "Wellsburg, WV 26070"],
+    "mop": {
+        "ready": false,
+        "wait": null
+    },
+    "schedule": [{
+        "dayName": "Saturday",
+        "hours": "5:00 AM to 11:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Sunday",
+        "hours": "6:00 AM to 9:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Monday",
+        "hours": "5:00 AM to 11:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Tuesday",
+        "hours": "5:00 AM to 11:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Wednesday",
+        "hours": "5:00 AM to 11:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Thursday",
+        "hours": "5:00 AM to 11:00 PM",
+        "open": true,
+        "holiday": ""
+    }, {
+        "dayName": "Friday",
+        "hours": "5:00 AM to 11:00 PM",
+        "open": true,
+        "holiday": ""
+    }],
+    "features": [{
+        "code": "WA",
+        "name": "Oven-warmed Food"
+    }, {
+        "code": "VS",
+        "name": "Verismo"
+    }, {
+        "code": "CD",
+        "name": "Mobile Payment"
+    }, {
+        "code": "DR",
+        "name": "Digital Rewards"
+    }, {
+        "code": "LB",
+        "name": "LaBoulange"
+    }, {
+        "code": "GO",
+        "name": "Google Wi-Fi"
+    }, {
+        "code": "XO",
+        "name": "Mobile Order and Pay"
+    }, {
+        "code": "MX",
+        "name": "Music Experience"
+    }, {
+        "code": "NB",
+        "name": "Nitro Cold Brew"
+    }, {
+        "code": "BE",
+        "name": "Blonde Espresso"
+    }, {
+        "code": "LU",
+        "name": "Lunch"
+    }, {
+        "code": "PS",
+        "name": "Playbook Store System"
+    }, {
+        "code": "UE",
+        "name": "tbd - Uber Eats"
+    }],
+    "slug": "convenient-food-mart-express-wellsburg-601-commerce-rd-wellsburg-wv-26070"
+},]

@@ -27,8 +27,8 @@ body {
     border-radius: 30px;
     position: absolute;
     z-index: 100;
-    top: 100px;
-    left: 100px;
+    top: 60px;
+    left: 90px;
     width: 400px;
     height: 60px;
     background-color: #454E53;
@@ -36,8 +36,6 @@ body {
     box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.507);
     transform: scale(.6, .6);
 }
-
-#map > div > div > div:nth-child(1) > div:nth-child(3) > div > div:nth-child(4) > div > div > div > div {}
 
 .search-container .search{
     flex-grow: 1;
@@ -69,8 +67,8 @@ body {
     position: absolute;
     z-index: 100;
     background-color: white;
-    left: 100px;
-    top: 70px;
+    left: 90px;
+    top: 10px;
     border-radius: 30px;
     bottom: 20px;
     display: flex;
@@ -132,12 +130,12 @@ body {
 
 .store-info-window {
     min-width: 300px;
-    font-size: 18px;
+    font-size: 14px;
     padding: 8px;
 }
 
 .store-info-name {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     color: rgba(0, 0, 0, .87);
 }
@@ -154,8 +152,18 @@ body {
     align-items: center;
 }
 
+.store-info-address a, .store-info-phone a {
+    text-decoration: none;
+    color: black;
+}
+
+.store-info-address a:hover, .store-info-phone a:hover {
+    transform: scale(1.1, 1.1);
+    color: #fe0000;
+}
+
 .circle {
-    background-color: #1985A1;
+    background-color: #fe0000;
     width: 30px;
     height: 30px;
     color: white;
@@ -198,4 +206,79 @@ body {
     background: #454E53;
     border-radius: 30px;
     height: 30px;
+}
+
+/** Extra Small (575px and below) **/
+@media (max-width: 575px) {
+    .search-container {
+        top: 40px;
+        left: -50px;
+        transform: scale(.4, .4);
+    }
+    .stores-list-container {
+        top: 20px;
+        left: -50px;
+        transform: scale(.4, .4);
+    }
+    #map {
+        height: 300px;
+        transform: scale(1.1, 1.1)
+    }
+
+    .store-info-window {
+        font-size: 11px;
+    }
+    
+    .store-info-name {
+        font-size: 14px;
+    }
+}
+
+/** Small devices (landscape phones, 576px and up) **/
+@media (min-width: 576px) and (max-width: 767px) { 
+    .search-container {
+        top: 40px;
+        left: -120px;
+        transform: scale(.3, .3);
+    }
+    .stores-list-container {
+        top: -20px;
+        left: -120px;
+        transform: scale(.3, .3);
+    }
+    #map {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+/** Medium devices (tablets, 768px and up) **/
+@media (min-width: 768px) and (max-width: 991px) {
+    .search-container {
+        top: 50px;
+        left: -70px;
+        transform: scale(.5, .5);
+    }
+    .stores-list-container {
+        top: 10px;
+        left: -70px;
+        height: 400px;
+        transform: scale(.5, .5);
+    }
+    #map {
+        width: 100%;
+        height: 600px;
+    }
+ }
+
+/** Large devices (desktops, 992px and up) **/
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+ }
+
+/** Extra large devices (large desktops, 1200px and up) **/
+@media (min-width: 1200px) { ... }
+
+
+
 }

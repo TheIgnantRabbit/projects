@@ -1,8 +1,14 @@
-body {
+body, html {
     box-sizing: border-box;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
-    background: url(/Images/fruit_bg-1000x630.jpg) no-repeat;
+    height: 100%;
+}
+
+.bg {
+    height: 100%;
+    background: url(/Images/fruit_bg-1000x630.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -163,7 +169,7 @@ header {
     margin-top: 20px;
 }
 
-#ad-btn-btn {
+.ad-btn-btn {
     margin-right: 10px;
     background-color: #fe0000;
     font-weight: bold;
@@ -172,7 +178,7 @@ header {
     font-size: 1.4rem;
 }
 
-#ad-btn-btn:hover {
+.ad-btn-btn:hover {
     background-color: #fbd800;
     color: #fe0000;
     border: none;
@@ -200,10 +206,12 @@ h2, h3 {
 #carousel {
     height: 100%;
     box-shadow: 0 1px 6px rgba(0, 0, 0, .5), 0 1px 4px rgba(0, 0, 0, .5);
+    position: relative;
 }
 
 .carousel-inner {
     border-radius: 8px;
+    position: relative;
 }
 
 .contact-logo {
@@ -228,9 +236,30 @@ h2, h3 {
     font-size: 2.5rem;
 }
 
+.deals-btn {
+    margin-right: 10px;
+    color: white;
+    background-color: #fe0000;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.4rem;
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    z-index: 10;
+}
+
+.deals-btn:hover {
+    background-color: #fbd800;
+    color: #fe0000;
+    border: none;
+}
+
 #firstslide-text, #secondslide-text, #thirdslide-text {
     padding-left: 0;
     padding-right: 25px;
+    position: relative;
 }
 
 #firstslide-text h2, #secondslide-text h2, #thirdslide-text h2, .ad-writing h2 {
@@ -383,7 +412,6 @@ h2, h3 {
     }
 
     #special1, #special2 {
-        background-image: none;
         box-shadow: none;
     }
 

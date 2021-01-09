@@ -27,9 +27,12 @@ function searchStores() {
   if(zipCode){
     for (var store of stores){
       var postal = store['address']['postalCode'].substring(0,5);
+      var city = store['address']['city'].substring(0,);
       if(postal == zipCode){
         foundStores.push(store);
-  } 
+  } else if (zipCode == city){
+    foundStores.push(store);
+  }
   }
   
     }else {
@@ -39,6 +42,7 @@ function searchStores() {
   displayStores(foundStores);
   showStoresMarkers(foundStores);
   setOnClickListener();
+  setOnEnterListener();
 }
 
 function clearLocations() {
